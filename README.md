@@ -1,5 +1,5 @@
 # sku-rank
-:new: a sku rank helper
+:fire: a sku rank helper
 
 ### install 
 ```
@@ -23,11 +23,10 @@ let data = [
     ['S', 'M', 'L'],
     ['真皮', '尼龙']
 ]
-
 let ret = rank(data, 'item')
-// return 
 ```
 ```js
+// return 
 [ 
   [ '白色', 'S', '真皮' ],
   [ '白色', 'S', '尼龙' ],
@@ -53,6 +52,6 @@ let ret = rank(data, 'item')
 ### mode
 mode | description  | sample |
 -|-|-|
-`full` (default) | return item and index | `[{ row: 1, column: 0, item: 'S' }]` |
-`index` | only return index | `[1]` |
-`item` | only return item | `['S']` |
+`full` (default) | Return item and index | `[{ row: 1, column: 0, item: 'S' }]` |
+`index` | Only return index | `[1]` |
+`item` | Only return item | `['S']` |
