@@ -1,0 +1,27 @@
+{
+  "name": "sku-rank",
+  "version": "0.0.1",
+  "description": "a sku rank helper",
+  "main": "dist/rank.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/rank.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtboy1995/sku-rank.git"
+  },
+  "keywords": [
+    "sku",
+    "rank",
+    "helper",
+    "permutation",
+    "combination"
+  ],
+  "author": "dtboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtboy1995/sku-rank/issues"
+  },
+  "homepage": "https://github.com/dtboy1995/sku-rank#readme"
+}
