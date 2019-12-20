@@ -5,7 +5,8 @@
   "main": "dist/rank.js",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/rank.ts"
+    "start": "ts-node src/rank.ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
