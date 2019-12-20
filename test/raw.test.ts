@@ -1,6 +1,6 @@
-const rank = require('../dist/rank').default
+import rank from '../src/rank'
 
-test('raw type', function () {
+test('raw type', () => {
     let data = [
         ['白色', '黑色', '灰色'],
         ['S', 'M', 'L'],

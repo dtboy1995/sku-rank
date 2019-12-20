@@ -1,6 +1,6 @@
-const rank = require('../dist/rank').default
+import rank from '../src/rank'
 
-test('object type', function () {
+test('object type', () => {
     let data = [
         [{ name: '白色' }, { name: '黑色' }, { name: '灰色' }],
         [{ name: 'S' }, { name: 'M' }, { name: 'L' }],
